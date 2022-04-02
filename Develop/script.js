@@ -45,6 +45,14 @@ var passwordChar = "";
     passwordChar += password_Options.symbols;
   };
 
+  var password = "";
+  for (let i = 0; i < length; i++) {
+    password += passwordChar[Math.floor(Math.random() * passwordChar.length)]
+  }
+  return password;
+     }
+ 
+
 
 
 
