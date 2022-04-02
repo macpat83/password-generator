@@ -19,6 +19,33 @@ function generatePassword() {
     symbols: '!#$%&()*+,-./:;<=>?@[\]^_{|}~',
 };
 
+var passwordChar = "";
+
+  var length = getPasswordLength();
+
+  //var length = window.prompt("Enter a number from 8 to 128 for password length.");
+  
+   var lowerCase = window.confirm("Would you like to include lowercase letters?");
+    if (lowerCase == true) {
+      passwordChar += password_Options.lowerCase;
+    };
+
+  var upperCase = window.confirm("Would you like to include uppercase letters?");
+  if (upperCase == true) {
+    passwordChar += password_Options.upperCase;
+  };
+
+  var numeric = window.confirm("Would you like to include numeric and/or special characters?");
+  if (numeric == true) {
+    passwordChar += password_Options.numeric;
+  };
+
+  var symbols = window.confirm("Would you like to use symbols?")
+  if (symbols == true) {
+    passwordChar += password_Options.symbols;
+  };
+
+
 
 
 //function to set password length
