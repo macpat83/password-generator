@@ -11,6 +11,13 @@ function writePassword() {
 
 }
 
+function generatePassword() {
+  const password_Options =  {
+    lowerCase: 'abcdefghijklmnopqrstuvwxyz',
+    upperCase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+    numeric: '0123456789',
+    symbols: '!#$%&()*+,-./:;<=>?@[\]^_{|}~',
+};
 
 
 
