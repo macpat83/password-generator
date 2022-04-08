@@ -1,48 +1,28 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
 
-If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).
+## Purpose
 
-## User Story
+Build a password generator that generates a password based on certain criteria. The criteria options should be upper and lower case numbers, symbols, and numbers. The password should consist of the criteria selected.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
 
-## Acceptance Criteria
+## Built With
+HTML
+CSS
+Javascript
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
 
-The following image demonstrates the application functionality:
+## Website
+https://macpat83.github.io/password-generator/
 
-![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
+## GitHub
+https://github.com/macpat83/password-generator
 
-## Review
+## Screen Capture
 
-You are required to submit the following for review:
+![image](![password-generator](https://user-images.githubusercontent.com/98047373/162341299-13589bab-0cf2-4a56-ba34-a6f655c69ceb.png)
 
-* The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Contribution
+Made with ❤️ by [McKinley]
